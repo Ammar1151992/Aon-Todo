@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Header */
+.main-header{
+    border-bottom: 1px solid #d7d7d7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content img{
+    width: 100px;
+}
+
+
+.header-nav ul{
+    display: flex;
+}
+.header-nav ul a li{
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.header-nav ul a li span{
+    color: #000;
+}
+
+/* End Header */
+
+.main{
+    margin-top: 100px;
+}
+
+.main h1{
+    font-size: 40px;
+}
+
+.main p{
+    font-size: 22px;
+    color: #666666;
+}
+
+.main-form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-form input{
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: #d7d7d7 1px solid;
+}
+
+.main-form button{
+    width: 150px;
+    height: 50px;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.border{
+    margin-top: 25px;
+    border-bottom: #d7d7d7 1px solid;
+    width: 100%;
+}
+
+.list{
+    margin-top: 25px;
+
+}
+.list ul li{
+    background-color: #F6F6F6;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.list ul li div{
+    font-size: 25px;
+}
+
+.avg{
+    margin-top: 30px;
+    font-size: 25px;
+    color: #666666;
+}
+
+.avg span{
+    color: #000;
+    font-weight: bold;
+}
+.img-main{
+    margin-top: 100px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 200px;
+    color: #666666;
+    font-size: 20px;
+}
+
+.footer span{
+    color: #0000FF;
+}
+
+@media screen and (max-width: 600px) {
+    .main-form input{
+        width: 100%;
+    }
+    
+    .main-form button{
+        width: 90%;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 50px;
+    }
+}
